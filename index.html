@@ -1,0 +1,33 @@
+---
+layout: default
+title: ICIT 2016
+slug: home
+---
+
+<div class="row">
+  <div class="col-md-8" role="main">
+<p class="text-justify">
+The International Conference on Information Technology (ICIT) is a premier international forum for sharing high quality research in the areas of Information Technology. 
+Researchers, developers, and practitioners from academia and industry are invited to present their research findings on various topics of IT and its applications.
+</p>
+  </div>
+  <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">News</h3>
+      </div>
+      <ul class="list-group">
+        {% for post in site.posts limit:10 %}
+        <li class="list-group-item">
+          <h5 class="list-group-item-heading">{{ post.date | date: "%B %-d, %Y" }}</h5>
+          <p class="list-group-item-text">{{ post.title }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="panel-footer text-right">
+        <a href="/news.html">More News</a>
+      </div>
+    </div>
+  </div>
+</div>
+

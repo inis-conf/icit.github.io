@@ -1,0 +1,26 @@
+# Site settings
+title: ICIT 2016
+author:
+  name: ICIT 2016
+  email: webdev+icit@erebuslabs.com
+  github: icit
+  twitter: erebuslabs
+description: > # this means to ignore newlines until "keywords:"
+  
+  keywords: IEEE ICIT
+baseurl: ""
+url: "http://icit.github.io"
+repo: https://github.com/icit/icit.github.io
+
+# Build settings
+timezone: America/Denver
+encoding: utf-8
+markdown: kramdown
+permalink: none
+gems:
+  - jekyll-sitemap
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md
