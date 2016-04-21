@@ -3,7 +3,9 @@ body {
 }
 
 .team-face{
+    min-height: 300px;
     max-height: 300px;
+
 }
 .photo-credit {
   padding-top: 0.3em;
