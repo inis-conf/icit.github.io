@@ -2,6 +2,9 @@ body {
   position: relative;
 }
 
+.team-face{
+    max-height: 300px;
+}
 .photo-credit {
   padding-top: 0.3em;
   font-size: 0.6em;
