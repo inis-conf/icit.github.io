@@ -1,47 +1,47 @@
 firstName,lastName,organization,role,track
-Charles,Kamhoua,"Air Force Research Laboratory, Rome, NY",track chair,DRM
-Shamik,Sengupta,"University of Nevada, Reno",track chair,CNP
-Gautam,Das,University of Texas at Arlington,track chair,TWA
 Naveena,Yanamala,CDC/NIOSH/HELD,track chair,BMI
-Akash,Kumar,TUDresden,track chair,SPD
+Debnath,Pal,"Indian Institute of Science, Bangalore",,BMI
+Shamik,Sengupta,"University of Nevada, Reno",track chair,CNP
+Indrajit,Banerjee,"Indian Institute of Engineering Science and Technology, Shibpur",,CNP
+Suman,Bhunia,"University of Nevada, Reno",,CNP
+Xavier,Fernando,Ryerson University,,CNP
+Omar,Nakhila,University of Central Florida,,CNP
+Sergio,Salinas,Wichita State University,,CNP
+Tuhina,Samanta,"Bengal Engineering and Sc. University, Shibpur",,CNP
+Anand,Santhanakrishnan,New York Institute of Technology,,CNP
+Deepak Kumar,Tosh,"University of Nevada, Reno",,CNP
+Charles,Kamhoua,"Air Force Research Laboratory, Rome, NY",track chair,DRM
+Swastik,Brahma,Syracuse University,,DRM
+Xinyu,Jin,Florida International University,,DRM
+Praveen,Rao,University of Missouri-Kansas City,,DRM
+Yiyu,Shi,University of Notre Dame,,DRM
+Deepak,Tosh,"University of Nevada, Reno",,DRM
 Vijay,Holimath,Vivid-Sparks IT Solutions,track chair,ICT
-Subhasis,Bhattacharjee,Synopsys Pvt. Ltd.,,SPD
-Amit,Singh,"University of York, York, UK",,SPD
-Benhaoua,Mohammed Kamal,Oran university,,SPD
-Pradip,Srimani,Clemson University,,SPD
-Bhabani,Sinha,Indian Statistical Institute (ISI) Kolkata,,SPD
-Krishnendu,Mukhopadhyaya,Indian Statistical Institute (ISI) Kolkata,,SPD
-Arobinda,Gupta,IIT Kharagpur,,SPD
-Anup,Das,National University of Singapore,,SPD
-Vipul,Sharma,"Benett University, India",,ICT
-Prasun,Ghosal,IIEST Shibpur,,ICT
-Pradip,Patra,"Samsung, Korea",,ICT
-Reshmi,Mitra,University of North Carolina at Charlotte,,ICT
-Mike,Borowczak,Erebus Labs,,ICT
-Nagi,Mekhiel,Ryerson University Canada,,ICT
 Saumya,Bhadauria,"NIT Bhopal, India",,ICT
-Vagelis,Hristidis,UC Riverside,,TWA
-Sanjay,Chawla,Qatar Computing Research Institute,,TWA
-Srikanta,Bedathur,IBM Research,,TWA
-Alice,Marascu,IBM Research - Ireland,,TWA
+Mike,Borowczak,Erebus Labs,,ICT
+Prasun,Ghosal,IIEST Shibpur,,ICT
+Nagi,Mekhiel,Ryerson University Canada,,ICT
+Reshmi,Mitra,University of North Carolina at Charlotte,,ICT
+Pradip,Patra,"Samsung, Korea",,ICT
+Vipul,Sharma,"Benett University, India",,ICT
+Akash,Kumar,TUDresden,track chair,SPD
+Subhasis,Bhattacharjee,Synopsys Pvt. Ltd.,,SPD
+Anup,Das,National University of Singapore,,SPD
+Arobinda,Gupta,IIT Kharagpur,,SPD
+Benhaoua,Mohammed Kamal,Oran university,,SPD
+Krishnendu,Mukhopadhyaya,Indian Statistical Institute (ISI) Kolkata,,SPD
+Amit,Singh,"University of York, York, UK",,SPD
+Bhabani,Sinha,Indian Statistical Institute (ISI) Kolkata,,SPD
+Pradip,Srimani,Clemson University,,SPD
+Gautam,Das,University of Texas at Arlington,track chair,TWA
 Senjuti,Basu Roy,Institute of Technology,,TWA
+Srikanta,Bedathur,IBM Research,,TWA
+Sanjukta,Bhowmick,"University of Nebraska, Omaha",,TWA
+Sanjay,Chawla,Qatar Computing Research Institute,,TWA
 Mahashweta,Das,Univ. of Texas at Arlington,,TWA
-Nan,Zhang,The George Washington University,,TWA
+Vagelis,Hristidis,UC Riverside,,TWA
+Alice,Marascu,IBM Research - Ireland,,TWA
+Bijan,Misra,"Department of Computer Science and Engineering,College of Engineering Bhubaneswar, Orissa, INDIA",,TWA
 Davide,Mottin,Hasso Plattner Institute,,TWA
 Saravanan,Thirumuruganathan,University of Texas Arlington,,TWA
-Sanjukta,Bhowmick,"University of Nebraska, Omaha",,TWA
-Bijan,Misra,"Department of Computer Science and Engineering,College of Engineering Bhubaneswar, Orissa, INDIA",,TWA
-Deepak Kumar,Tosh,"University of Nevada, Reno",,CNP
-Suman,Bhunia,"University of Nevada, Reno",,CNP
-Sergio,Salinas,Wichita State University,,CNP
-Indrajit,Banerjee,"Indian Institute of Engineering Science and Technology, Shibpur",,CNP
-Tuhina,Samanta,"Bengal Engineering and Sc. University, Shibpur",,CNP
-Omar,Nakhila,University of Central Florida,,CNP
-Anand,Santhanakrishnan,New York Institute of Technology,,CNP
-Xavier,Fernando,Ryerson University,,CNP
-Swastik,Brahma,Syracuse University,,DRM
-Yiyu,Shi,University of Notre Dame,,DRM
-Praveen,Rao,University of Missouri-Kansas City,,DRM
-Deepak,Tosh,"University of Nevada, Reno",,DRM
-Xinyu,Jin,Florida International University,,DRM
-Debnath,Pal,"Indian Institute of Science, Bangalore",,BMI
+Nan,Zhang,The George Washington University,,TWA
