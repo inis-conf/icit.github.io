@@ -68,9 +68,19 @@ slug: team
       </tr>
       {% for member in site.data.pc %}
       <tr>
-        <td><a href="#">{{member.firstName}} {{member.lastName}}</a></td>
+        <td>
+        {% if member.role == 'track chair' %}
+          <strong>
+        {% endif %}
+          <a href="#">{{member.firstName}} {{member.lastName}}</a>
+        }
+         {% if member.role == 'track chair' %}
+          </strong>
+        {% endif %}
+        }
+        </td>
         <td>{{member.organization}}</td>
-        <td><strong>{{member.role | upcase}}</strong></td>
+        <td><strong>{{member.role | capitalize}}</strong></td>
         <td>{{member.track}}</td>
       </tr>
       {% endfor %}
