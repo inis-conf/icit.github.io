@@ -61,14 +61,17 @@ slug: team
     <tbody>
  <tr>
 
-        <th scope="row" colspan="4">Track Members</th>
+        <th scope="row" colspan="3">Track Members</th>
+      </tr>
+      <tr>
+      <td>Name</td><td>Affiliation</td><td>Track</td>
       </tr>
 {% for member in site.data.pc %}
 
 <tr>
-        <td><a href="#">{{firstName}} {{lastName}}</a></td>
-        <td>{{organization}}</td>
-        <td>{{track}}</td>
+        <td><a href="#">{{member.firstName}} {{member.lastName}}</a></td>
+        <td>{{member.organization}}</td>
+        <td>{{member.track}}</td>
       </tr>
 
 {% endfor %}
