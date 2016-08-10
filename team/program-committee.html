@@ -9,61 +9,11 @@ slug: team
 <div class="table-responsive">
   <table class="table">
     <tbody>
-      <tr>
-        <th scope="row" colspan="4">Track Chairs</th>
-      </tr>
-      <tr>
-        <td><a href="#">Shamik Sengupta</a></td>
-        <td>University of Nevada Reno, USA</td>
-        <td>USA</td>
-	<td>Communication Networks and Protocols</td>
-      </tr>
-      <tr>
-        <td><a href="#">Akash Kumar</a></td>
-	<td>Dresden University of Technology</td>
-        <td>Germany</td>
-	<td>Sequential, Parallel and Distributed Computing</td>
-      </tr>
-
-      <tr>
-        <td><a href="#">Gautam Das</a></td>
-	<td>University of Texas at Arlington</td>
-        <td>USA</td>
-	<td>Text and Web-data Analytics</td>
-      </tr>
-
-      <tr>
-        <td><a href="#">Charles Kamhoua</a></td>
-	<td>US Air Force</td>
-        <td>USA</td>
-	<td>Information Security,Content Protection, and Digital Rights Management</td>
-      </tr>
-      <tr>
-        <td><a href="#">Naveena Yanamala</a></td>
-	<td>National Institute for Ocupactional Safety and Health (NIOSH)</td>
-        <td>USA</td>
-	<td>Biomedical Informatics</td>
-      </tr>
-      <tr>
-        <td><a href="#">Vijay Holimath</a></td>
-	<td>VividSparks IT Solutions</td>
-        <td>India</td>
-	<td>Modern Trends in Information and Computing Technology</td>
-      </tr>
-
-    </tbody>
-  </table>
-</div>
-
-<div class="table-responsive">
-  <table class="table">
-    <tbody>
  <tr>
-
-        <th scope="row" colspan="4">Track Chairs</th>
+        <th scope="row" colspan="3">Track Chairs</th>
       </tr>
       <tr>
-      <td>Name</td><td>Affiliation</td><td>Role</td><td>Track</td>
+      <td>Name</td><td>Affiliation</td><td>Track</td>
       </tr>
       {% for member in site.data.pc %}
       {% if member.role == 'track chair' %}
@@ -71,13 +21,9 @@ slug: team
         <td>
           <a href="#">{{member.firstName}} {{member.lastName}}</a>
         </td>
-
         <td>
             {{member.organization}}
         </td>
-
-        <td>
-          <strong>{{member.role | capitalize}}</strong></td>
         <td>
           {{member.track}}
         </td>
