@@ -65,7 +65,8 @@ slug: team
       <tr>
       <td>Name</td><td>Affiliation</td><td>Role</td><td>Track</td>
       </tr>
-      {% for member in site.data.pc | where:"member.role","track chair" %}
+      {% for member in site.data.pc %}
+      {% if member.role == 'track chair'}
       <tr>
         <td>
           <a href="#">{{member.firstName}} {{member.lastName}}</a>
@@ -82,6 +83,7 @@ slug: team
         </td>
 
       </tr>
+      {% endif %}
       {% endfor %}
    </tbody>
   </table>
