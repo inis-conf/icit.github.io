@@ -54,6 +54,29 @@ slug: team
     </tbody>
   </table>
 </div>
+
+
+<div class="table-responsive">
+  <table class="table">
+    <tbody>
+ <tr>
+
+        <th scope="row" colspan="4">Track Members</th>
+      </tr>
+{% for member in site.data.pc %}
+
+<tr>
+        <td><a href="#">{{firstName}} {{lastName}}</a></td>
+        <td>{{organization}}</td>
+        <td>{{track}}</td>
+      </tr>
+
+{% endfor %}
+   </tbody>
+  </table>
+</div>
+
+
 <!--
       <tr>
 
@@ -113,7 +136,7 @@ slug: team
         <td><a href="http://www.lore.ua.ac.be/">Serge Demeyer</a></td>
         <td>University of Antwerp</td>
         <td>Belgium</td>
-      </tr>      
+      </tr>
       <tr>
         <td><a href="http://www.rcost.unisannio.it/mdipenta">Massimiliano Di Penta</a></td>
         <td>University of Sannio</td>
@@ -158,7 +181,7 @@ slug: team
         <td><a href="http://softwareprocess.es/">Abram Hindle</a></td>
         <td>University of Alberta</td>
         <td>Canada</td>
-      </tr>      
+      </tr>
       <tr>
         <td><a href="http://people.clarkson.edu/~dhou/">Daqing Hou</a></td>
         <td>Clarkson University</td>
@@ -293,7 +316,7 @@ slug: team
         <td><a href="http://www.quantes.de/profile/">Jochen Quante</a></td>
         <td>Robert Bosch GmbH</td>
         <td>Germany</td>
-      </tr>      
+      </tr>
       <tr>
         <td><a href="http://romain.robb.es">Romain Robbes</a></td>
         <td>University of Chile</td>
@@ -303,7 +326,7 @@ slug: team
         <td><a href="http://www.cs.usask.ca/~croy/">Chanchal K. Roy</a></td>
         <td>University of Saskatchewan</td>
         <td>Canada</td>
-      </tr>      
+      </tr>
       <tr>
         <td><a href="http://www.ics.uci.edu/~hsajnani">Hitesh Sajnani</a></td>
         <td>University of California, Irvine</td>
@@ -343,7 +366,7 @@ slug: team
         <td><a href="http://users.encs.concordia.ca/~nikolaos/">Nikolaos Tsantalis</a></td>
         <td>Concordia University</td>
         <td>Canada</td>
-      </tr>      
+      </tr>
       <tr>
         <td><a href="http://www.ntu.edu.sg/home/zcxing">Zhenchang Xing</a></td>
         <td>Nanyang Technological University</td>
