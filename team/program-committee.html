@@ -73,15 +73,26 @@ slug: team
           <strong>
         {% endif %}
           <a href="#">{{member.firstName}} {{member.lastName}}</a>
-        }
          {% if member.role == 'track chair' %}
           </strong>
         {% endif %}
         }
         </td>
+        {% if member.role == 'track chair' %}
+          <strong>
+        {% endif %}
         <td>{{member.organization}}</td>
+        {% if member.role == 'track chair' %}
+          </strong>
+        {% endif %}
         <td><strong>{{member.role | capitalize}}</strong></td>
+        {% if member.role == 'track chair' %}
+          <strong>
+        {% endif %}
         <td>{{member.track}}</td>
+        {% if member.role == 'track chair' %}
+          </strong>
+        {% endif %}
       </tr>
       {% endfor %}
    </tbody>
