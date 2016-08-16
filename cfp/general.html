@@ -64,8 +64,8 @@ Submissions must be formatted according to the <a href="/cfp/formatting-instruct
 
 <h3>Important Dates</h3>
 <dl class="dl-horizontal">
-<dt>Paper submission</dt><dd>August 15, 2016</dd>
-<dt>Author notification</dt><dd>September 23, 2016</dd>
-<dt>Camera Ready and Registration</dt><dd>September 30, 2016</dd>
+	{% for date in site.data.dates %}	
+    <dt>{{date.Name}}</dt><dd>{{date.Date |  date_to_long_string}}</dd>
+	{% endfor %}
 </dl>
 <p>Submissions close at 23:59 AoE (Anywhere on Earth, UTC-12)</p>

@@ -20,16 +20,15 @@ slug: cfp
             </tr>
         </tfoot>
         <tbody>
+			{% for date in site.data.dates %}
+	        {% if date.Section == 'Deadlines' %}
+			
             <tr>
-                <td><a href="/cfp/general.html">Paper Submission</a></td>
-                <td class="text-right"><strike>August 5, 2016</strike>August 15, 2016</td>
+                <td><a href="{{date.Link}}">{{date.Name}}</a></td>
+                <td class="text-right">{{date.Date}}</td>
             </tr>
-            <tr>
-	      <td>
-                    <a href="/cfp/general.html">Tutorial Proposal Submission</a><br/>
-                </td>
-                <td class="text-right"><strike>August 5, 2016</strike>August 15, 2016</td>
-            </tr>
+			{% endif %}
+			{% endfor %}
         </tbody>
         <tr></tr>
     </table>
@@ -39,10 +38,15 @@ slug: cfp
 <div class="table-responsive">
     <table class="table">
         <tbody>
+			{% for date in site.data.dates %}
+	        {% if date.Section == 'Notification' %}
+			
             <tr>
-                <td><a href="/cfp/general.html">All Contributions to ICIT</a></td>
-                <td class="text-right"><strike>August 25, 2016</strike> September 23, 2016</td>
+                <td><a href="{{date.Link}}">{{date.Name}}</a></td>
+                <td class="text-right">{{date.Date}}</td>
             </tr>
+			{% endif %}
+			{% endfor %}
         </tbody>
         <tr></tr>
     </table>
@@ -52,10 +56,15 @@ slug: cfp
 <div class="table-responsive">
     <table class="table">
         <tbody>
+			{% for date in site.data.dates %}
+	        {% if date.Section == 'Camera' %}
+			
             <tr>
-                <td>All contributions to ICIT proceedings</td>
-                <td class="text-right"><strike>September 8, 2016</strike> September 30, 2016</td>
+                <td><a href="{{date.Link}}">{{date.Name}}</a></td>
+                <td class="text-right">{{date.Date}}</td>
             </tr>
+			{% endif %}
+			{% endfor %}
         </tbody>
         <tr></tr>
     </table>
