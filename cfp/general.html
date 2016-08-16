@@ -68,7 +68,7 @@ Submissions must be formatted according to the <a href="/cfp/formatting-instruct
 	{% assign dateArray = date.Date | split: '/' %}
 	
     <dt>{{date.Name}}</dt><dd>{{dateArray[1]}}
-		 {% case dateArray[10] %}
+		 {% case dateArray[0] %}
 		   {% when '01' %}January 
 		   {% when '02' %}February 
 		   {% when '03' %}March 
