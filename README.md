@@ -1,3 +1,3 @@
-icit.github.io
+inis-conf.github.io
 ===================
-This site builds upon http://icsme2016.github.io/ which uses the NCSU Bootstrap as a baseline.
+This site builds upon http://icit.github.io/ which uses the NCSU Bootstrap as a baseline.
